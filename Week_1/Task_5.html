@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartbridge Mern Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #000000;
+            text-align: center;
+        }
+        h1 {
+            color: #ddd5d5;
+        }
+        p {
+            color: #ffffff;
+            font-size: 16px;
+        }
+        .table-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            background-color: #222;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+        th, td {
+            border: 1px solid #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #444;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input {
+            width: 50%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+        }
+        .styled-button {
+            margin-top: 10px;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #007bff;
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        .styled-button:hover {
+            background-color: #0056b3;
+            color: #ffff00;
+            border-color: #ffff00;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the MERN Stack Assignment 1</h1>
+
+    <p>The MERN stack is a popular JavaScript technology stack used for building modern web applications.</p>
+
+    <!-- Simple Table -->
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Description</th>
+                <th>Usage</th>
+            </tr>
+            <tr>
+                <td>MongoDB</td>
+                <td>NoSQL Database</td>
+                <td>Data Storage</td>
+            </tr>
+            <tr>
+                <td>Express.js</td>
+                <td>Backend Framework</td>
+                <td>API Development</td>
+            </tr>
+            <tr>
+                <td>React.js</td>
+                <td>Frontend Library</td>
+                <td>User Interface</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Simple Form -->
+    <div class="form-container">
+        <h2 style="color: #ffffff;">Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button class="styled-button" type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
