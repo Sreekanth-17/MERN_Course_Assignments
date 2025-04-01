@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartbridge Mern Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #65b0af;
+            text-align: center;
+        }
+        h1 {
+            color: #000000;
+        }
+        p {
+            color: #3e3737;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the MERN Stack Assignment 1</h1>
+    <p>This is the first task of weekly assignment done by Sreekanth S Nair. 
+        We will work on HTML and CSS fundamentals.</p>
+    <p>We have to do 5 tasks in the first assignment. It includes creating a web page with a title, heading, paragraphs, an image with caption, 
+        styled text, a button with hover effects, a table and a form</p>
+</body>
+</html>
