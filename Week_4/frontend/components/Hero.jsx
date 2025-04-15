@@ -7,3 +7,4 @@ const Hero = () => (
     <p className="text-lg mt-4">Shop official football jerseys for your favorite clubs and countries.</p>
   </div>
 );
+export default Hero;
